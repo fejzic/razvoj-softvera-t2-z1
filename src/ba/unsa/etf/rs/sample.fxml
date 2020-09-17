@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import java.net.URL?>
+<GridPane alignment="center" hgap="10" prefHeight="257.0" prefWidth="302.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.Controller">
+    <stylesheets>
+        <URL value="@/ba/unsa/etf/rs/sample.css" />
+    </stylesheets>
+    <columnConstraints>
+        <ColumnConstraints maxWidth="262.0" minWidth="178.0" prefWidth="262.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+    </rowConstraints>
+    <children>
+        <Button fx:id="tipka" contentDisplay="CENTER" mnemonicParsing="false" onAction="#akcija" prefHeight="25.0" prefWidth="172.0" text="Say" textAlignment="CENTER" textFill="#470000" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <font>
+                <Font size="15.0" />
+            </font></Button>
+        <Label fx:id="labela" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+    </children>
+</GridPane>
